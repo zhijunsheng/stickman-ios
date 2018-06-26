@@ -13,6 +13,7 @@
 		A8BA2A2920E231C500E44BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BA2A2820E231C500E44BF3 /* Images.xcassets */; };
 		A8BA2A2C20E231C500E44BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8BA2A2A20E231C500E44BF3 /* LaunchScreen.xib */; };
 		A8BA2A3820E231C500E44BF3 /* stickmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BA2A3720E231C500E44BF3 /* stickmanTests.swift */; };
+		A8BA2A4220E2342000E44BF3 /* IfElseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BA2A4120E2342000E44BF3 /* IfElseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A8BA2A3120E231C500E44BF3 /* stickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BA2A3620E231C500E44BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8BA2A3720E231C500E44BF3 /* stickmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickmanTests.swift; sourceTree = "<group>"; };
+		A8BA2A4120E2342000E44BF3 /* IfElseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IfElseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				A8BA2A3720E231C500E44BF3 /* stickmanTests.swift */,
 				A8BA2A3520E231C500E44BF3 /* Supporting Files */,
+				A8BA2A4120E2342000E44BF3 /* IfElseTests.swift */,
 			);
 			path = stickmanTests;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BA2A3820E231C500E44BF3 /* stickmanTests.swift in Sources */,
+				A8BA2A4220E2342000E44BF3 /* IfElseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				A8BA2A3D20E231C500E44BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8BA2A3E20E231C500E44BF3 /* Build configuration list for PBXNativeTarget "stickmanTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				A8BA2A4020E231C500E44BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
