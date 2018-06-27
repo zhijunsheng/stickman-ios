@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073678E420E03C5F005F9E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073678E320E03C5F005F9E14 /* AppDelegate.swift */; };
-		073678E620E03C5F005F9E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073678E520E03C5F005F9E14 /* ViewController.swift */; };
-		073678E920E03C5F005F9E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073678E720E03C5F005F9E14 /* Main.storyboard */; };
-		073678EB20E03C61005F9E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073678EA20E03C61005F9E14 /* Assets.xcassets */; };
-		073678EE20E03C61005F9E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073678EC20E03C61005F9E14 /* LaunchScreen.storyboard */; };
-		073678F920E03C62005F9E14 /* stickmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073678F820E03C62005F9E14 /* stickmanTests.swift */; };
+		36185F0D20D6F31800E1F928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36185F0C20D6F31800E1F928 /* AppDelegate.swift */; };
+		36185F0F20D6F31800E1F928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36185F0E20D6F31800E1F928 /* ViewController.swift */; };
+		36185F1220D6F31800E1F928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36185F1020D6F31800E1F928 /* Main.storyboard */; };
+		36185F1420D6F31900E1F928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36185F1320D6F31900E1F928 /* Assets.xcassets */; };
+		36185F1720D6F31900E1F928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36185F1520D6F31900E1F928 /* LaunchScreen.storyboard */; };
+		36185F2220D6F31900E1F928 /* StickmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36185F2120D6F31900E1F928 /* StickmanTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		073678F520E03C62005F9E14 /* PBXContainerItemProxy */ = {
+		36185F1E20D6F31900E1F928 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 073678D820E03C5F005F9E14 /* Project object */;
+			containerPortal = 36185F0120D6F31800E1F928 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 073678DF20E03C5F005F9E14;
-			remoteInfo = stickman;
+			remoteGlobalIDString = 36185F0820D6F31800E1F928;
+			remoteInfo = Stickman;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073678E020E03C5F005F9E14 /* stickman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickman.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		073678E320E03C5F005F9E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		073678E520E03C5F005F9E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		073678E820E03C5F005F9E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		073678EA20E03C61005F9E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		073678ED20E03C61005F9E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		073678EF20E03C61005F9E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		073678F420E03C62005F9E14 /* stickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		073678F820E03C62005F9E14 /* stickmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickmanTests.swift; sourceTree = "<group>"; };
-		073678FA20E03C62005F9E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36185F0920D6F31800E1F928 /* Stickman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36185F0C20D6F31800E1F928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36185F0E20D6F31800E1F928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36185F1120D6F31800E1F928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36185F1320D6F31900E1F928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36185F1620D6F31900E1F928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36185F1820D6F31900E1F928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36185F1D20D6F31900E1F928 /* StickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36185F2120D6F31900E1F928 /* StickmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanTests.swift; sourceTree = "<group>"; };
+		36185F2320D6F31900E1F928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		073678DD20E03C5F005F9E14 /* Frameworks */ = {
+		36185F0620D6F31800E1F928 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		073678F120E03C62005F9E14 /* Frameworks */ = {
+		36185F1A20D6F31900E1F928 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,104 +56,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		073678D720E03C5F005F9E14 = {
+		36185F0020D6F31800E1F928 = {
 			isa = PBXGroup;
 			children = (
-				073678E220E03C5F005F9E14 /* stickman */,
-				073678F720E03C62005F9E14 /* stickmanTests */,
-				073678E120E03C5F005F9E14 /* Products */,
+				36185F0B20D6F31800E1F928 /* Stickman */,
+				36185F2020D6F31900E1F928 /* StickmanTests */,
+				36185F0A20D6F31800E1F928 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		073678E120E03C5F005F9E14 /* Products */ = {
+		36185F0A20D6F31800E1F928 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				073678E020E03C5F005F9E14 /* stickman.app */,
-				073678F420E03C62005F9E14 /* stickmanTests.xctest */,
+				36185F0920D6F31800E1F928 /* Stickman.app */,
+				36185F1D20D6F31900E1F928 /* StickmanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		073678E220E03C5F005F9E14 /* stickman */ = {
+		36185F0B20D6F31800E1F928 /* Stickman */ = {
 			isa = PBXGroup;
 			children = (
-				073678E320E03C5F005F9E14 /* AppDelegate.swift */,
-				073678E520E03C5F005F9E14 /* ViewController.swift */,
-				073678E720E03C5F005F9E14 /* Main.storyboard */,
-				073678EA20E03C61005F9E14 /* Assets.xcassets */,
-				073678EC20E03C61005F9E14 /* LaunchScreen.storyboard */,
-				073678EF20E03C61005F9E14 /* Info.plist */,
+				36185F0C20D6F31800E1F928 /* AppDelegate.swift */,
+				36185F0E20D6F31800E1F928 /* ViewController.swift */,
+				36185F1020D6F31800E1F928 /* Main.storyboard */,
+				36185F1320D6F31900E1F928 /* Assets.xcassets */,
+				36185F1520D6F31900E1F928 /* LaunchScreen.storyboard */,
+				36185F1820D6F31900E1F928 /* Info.plist */,
 			);
-			path = stickman;
+			path = Stickman;
 			sourceTree = "<group>";
 		};
-		073678F720E03C62005F9E14 /* stickmanTests */ = {
+		36185F2020D6F31900E1F928 /* StickmanTests */ = {
 			isa = PBXGroup;
 			children = (
-				073678F820E03C62005F9E14 /* stickmanTests.swift */,
-				073678FA20E03C62005F9E14 /* Info.plist */,
+				36185F2120D6F31900E1F928 /* StickmanTests.swift */,
+				36185F2320D6F31900E1F928 /* Info.plist */,
 			);
-			path = stickmanTests;
+			path = StickmanTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		073678DF20E03C5F005F9E14 /* stickman */ = {
+		36185F0820D6F31800E1F928 /* Stickman */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 073678FD20E03C62005F9E14 /* Build configuration list for PBXNativeTarget "stickman" */;
+			buildConfigurationList = 36185F2620D6F31900E1F928 /* Build configuration list for PBXNativeTarget "Stickman" */;
 			buildPhases = (
-				073678DC20E03C5F005F9E14 /* Sources */,
-				073678DD20E03C5F005F9E14 /* Frameworks */,
-				073678DE20E03C5F005F9E14 /* Resources */,
+				36185F0520D6F31800E1F928 /* Sources */,
+				36185F0620D6F31800E1F928 /* Frameworks */,
+				36185F0720D6F31800E1F928 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = stickman;
-			productName = stickman;
-			productReference = 073678E020E03C5F005F9E14 /* stickman.app */;
+			name = Stickman;
+			productName = Stickman;
+			productReference = 36185F0920D6F31800E1F928 /* Stickman.app */;
 			productType = "com.apple.product-type.application";
 		};
-		073678F320E03C62005F9E14 /* stickmanTests */ = {
+		36185F1C20D6F31900E1F928 /* StickmanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0736790020E03C62005F9E14 /* Build configuration list for PBXNativeTarget "stickmanTests" */;
+			buildConfigurationList = 36185F2920D6F31900E1F928 /* Build configuration list for PBXNativeTarget "StickmanTests" */;
 			buildPhases = (
-				073678F020E03C62005F9E14 /* Sources */,
-				073678F120E03C62005F9E14 /* Frameworks */,
-				073678F220E03C62005F9E14 /* Resources */,
+				36185F1920D6F31900E1F928 /* Sources */,
+				36185F1A20D6F31900E1F928 /* Frameworks */,
+				36185F1B20D6F31900E1F928 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				073678F620E03C62005F9E14 /* PBXTargetDependency */,
+				36185F1F20D6F31900E1F928 /* PBXTargetDependency */,
 			);
-			name = stickmanTests;
-			productName = stickmanTests;
-			productReference = 073678F420E03C62005F9E14 /* stickmanTests.xctest */;
+			name = StickmanTests;
+			productName = StickmanTests;
+			productReference = 36185F1D20D6F31900E1F928 /* StickmanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		073678D820E03C5F005F9E14 /* Project object */ = {
+		36185F0120D6F31800E1F928 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "GoldThumb Inc.";
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Bowen Lin";
 				TargetAttributes = {
-					073678DF20E03C5F005F9E14 = {
-						CreatedOnToolsVersion = 9.4.1;
+					36185F0820D6F31800E1F928 = {
+						CreatedOnToolsVersion = 9.3;
 					};
-					073678F320E03C62005F9E14 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 073678DF20E03C5F005F9E14;
+					36185F1C20D6F31900E1F928 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 36185F0820D6F31800E1F928;
 					};
 				};
 			};
-			buildConfigurationList = 073678DB20E03C5F005F9E14 /* Build configuration list for PBXProject "stickman" */;
+			buildConfigurationList = 36185F0420D6F31800E1F928 /* Build configuration list for PBXProject "Stickman" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,29 +161,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 073678D720E03C5F005F9E14;
-			productRefGroup = 073678E120E03C5F005F9E14 /* Products */;
+			mainGroup = 36185F0020D6F31800E1F928;
+			productRefGroup = 36185F0A20D6F31800E1F928 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				073678DF20E03C5F005F9E14 /* stickman */,
-				073678F320E03C62005F9E14 /* stickmanTests */,
+				36185F0820D6F31800E1F928 /* Stickman */,
+				36185F1C20D6F31900E1F928 /* StickmanTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		073678DE20E03C5F005F9E14 /* Resources */ = {
+		36185F0720D6F31800E1F928 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073678EE20E03C61005F9E14 /* LaunchScreen.storyboard in Resources */,
-				073678EB20E03C61005F9E14 /* Assets.xcassets in Resources */,
-				073678E920E03C5F005F9E14 /* Main.storyboard in Resources */,
+				36185F1720D6F31900E1F928 /* LaunchScreen.storyboard in Resources */,
+				36185F1420D6F31900E1F928 /* Assets.xcassets in Resources */,
+				36185F1220D6F31800E1F928 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		073678F220E03C62005F9E14 /* Resources */ = {
+		36185F1B20D6F31900E1F928 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,46 +193,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		073678DC20E03C5F005F9E14 /* Sources */ = {
+		36185F0520D6F31800E1F928 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073678E620E03C5F005F9E14 /* ViewController.swift in Sources */,
-				073678E420E03C5F005F9E14 /* AppDelegate.swift in Sources */,
+				36185F0F20D6F31800E1F928 /* ViewController.swift in Sources */,
+				36185F0D20D6F31800E1F928 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		073678F020E03C62005F9E14 /* Sources */ = {
+		36185F1920D6F31900E1F928 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073678F920E03C62005F9E14 /* stickmanTests.swift in Sources */,
+				36185F2220D6F31900E1F928 /* StickmanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		073678F620E03C62005F9E14 /* PBXTargetDependency */ = {
+		36185F1F20D6F31900E1F928 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 073678DF20E03C5F005F9E14 /* stickman */;
-			targetProxy = 073678F520E03C62005F9E14 /* PBXContainerItemProxy */;
+			target = 36185F0820D6F31800E1F928 /* Stickman */;
+			targetProxy = 36185F1E20D6F31900E1F928 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		073678E720E03C5F005F9E14 /* Main.storyboard */ = {
+		36185F1020D6F31800E1F928 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				073678E820E03C5F005F9E14 /* Base */,
+				36185F1120D6F31800E1F928 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		073678EC20E03C61005F9E14 /* LaunchScreen.storyboard */ = {
+		36185F1520D6F31900E1F928 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				073678ED20E03C61005F9E14 /* Base */,
+				36185F1620D6F31900E1F928 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		073678FB20E03C62005F9E14 /* Debug */ = {
+		36185F2420D6F31900E1F928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -300,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		073678FC20E03C62005F9E14 /* Release */ = {
+		36185F2520D6F31900E1F928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -354,115 +354,115 @@
 			};
 			name = Release;
 		};
-		073678FE20E03C62005F9E14 /* Debug */ = {
+		36185F2720D6F31900E1F928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8B74FCZCC;
-				INFOPLIST_FILE = stickman/Info.plist;
+				INFOPLIST_FILE = Stickman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.Stickman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		073678FF20E03C62005F9E14 /* Release */ = {
+		36185F2820D6F31900E1F928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8B74FCZCC;
-				INFOPLIST_FILE = stickman/Info.plist;
+				INFOPLIST_FILE = Stickman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.Stickman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		0736790120E03C62005F9E14 /* Debug */ = {
+		36185F2A20D6F31900E1F928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8B74FCZCC;
-				INFOPLIST_FILE = stickmanTests/Info.plist;
+				INFOPLIST_FILE = StickmanTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickmanTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.StickmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stickman.app/stickman";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickman.app/Stickman";
 			};
 			name = Debug;
 		};
-		0736790220E03C62005F9E14 /* Release */ = {
+		36185F2B20D6F31900E1F928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8B74FCZCC;
-				INFOPLIST_FILE = stickmanTests/Info.plist;
+				INFOPLIST_FILE = StickmanTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickmanTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.StickmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stickman.app/stickman";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickman.app/Stickman";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		073678DB20E03C5F005F9E14 /* Build configuration list for PBXProject "stickman" */ = {
+		36185F0420D6F31800E1F928 /* Build configuration list for PBXProject "Stickman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				073678FB20E03C62005F9E14 /* Debug */,
-				073678FC20E03C62005F9E14 /* Release */,
+				36185F2420D6F31900E1F928 /* Debug */,
+				36185F2520D6F31900E1F928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		073678FD20E03C62005F9E14 /* Build configuration list for PBXNativeTarget "stickman" */ = {
+		36185F2620D6F31900E1F928 /* Build configuration list for PBXNativeTarget "Stickman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				073678FE20E03C62005F9E14 /* Debug */,
-				073678FF20E03C62005F9E14 /* Release */,
+				36185F2720D6F31900E1F928 /* Debug */,
+				36185F2820D6F31900E1F928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0736790020E03C62005F9E14 /* Build configuration list for PBXNativeTarget "stickmanTests" */ = {
+		36185F2920D6F31900E1F928 /* Build configuration list for PBXNativeTarget "StickmanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0736790120E03C62005F9E14 /* Debug */,
-				0736790220E03C62005F9E14 /* Release */,
+				36185F2A20D6F31900E1F928 /* Debug */,
+				36185F2B20D6F31900E1F928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 073678D820E03C5F005F9E14 /* Project object */;
+	rootObject = 36185F0120D6F31800E1F928 /* Project object */;
 }

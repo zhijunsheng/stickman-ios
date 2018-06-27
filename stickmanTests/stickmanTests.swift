@@ -1,15 +1,15 @@
 //
-//  stickmanTests.swift
-//  stickmanTests
+//  StickmanTests.swift
+//  StickmanTests
 //
-//  Created by Donald Sheng on 2018-06-24.
-//  Copyright © 2018 GoldThumb Inc. All rights reserved.
+//  Created by Bowen Lin on 2018-06-17.
+//  Copyright © 2018 Bowen Lin. All rights reserved.
 //
 
 import XCTest
-@testable import stickman
+@testable import Stickman
 
-class stickmanTests: XCTestCase {
+class StickmanTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
