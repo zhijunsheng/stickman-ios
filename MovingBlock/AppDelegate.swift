@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  stickman
+//  MovingBlock
 //
-//  Created by Donald Sheng on 2018-06-24.
-//  Copyright © 2018 GoldThumb Inc. All rights reserved.
+//  Created by Peter Shi on 2018-04-27.
+//  Copyright © 2018 Peter Shi. All rights reserved.
 //
 
 import UIKit
