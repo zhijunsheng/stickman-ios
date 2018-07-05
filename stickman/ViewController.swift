@@ -16,38 +16,38 @@ class ViewController: UIViewController {
     @IBOutlet weak var blockView: UIView!
     
     @IBAction func leftTapped(_ sender: UIButton) {
-        if !stickmanWithMarginTouchingMiddleRow() ||
-            stickmanWithMarginTouchingMiddleRow() &&
-            !stickmanWithMarginWillStepIntoMiddleColumnWith(deltaX: -STEP) {
+        if !stickmanTouchingMiddleRow() ||
+            stickmanTouchingMiddleRow() &&
+            !stickmanWillStepIntoMiddleColumnWith(deltaX: -STEP) {
             stickmanImageView.frame.origin.x -= STEP
         }
     }
     
     @IBAction func upTapped(_ sender: UIButton) {
-        if !stickmanWithMarginTouchingMiddleColumn() ||
-            stickmanWithMarginTouchingMiddleColumn() &&
-            !stickmanWithMarginWillStepIntoMiddleRowWith(deltaY: -STEP) {
+        if !stickmanTouchingMiddleColumn() ||
+            stickmanTouchingMiddleColumn() &&
+            !stickmanWillStepIntoMiddleRowWith(deltaY: -STEP) {
             stickmanImageView.frame.origin.y -= STEP
         }
     }
     
     @IBAction func downTapped(_ sender: UIButton) {
-        if !stickmanWithMarginTouchingMiddleColumn() ||
-            stickmanWithMarginTouchingMiddleColumn() &&
-            !stickmanWithMarginWillStepIntoMiddleRowWith(deltaY: STEP) {
+        if !stickmanTouchingMiddleColumn() ||
+            stickmanTouchingMiddleColumn() &&
+            !stickmanWillStepIntoMiddleRowWith(deltaY: STEP) {
             stickmanImageView.frame.origin.y += STEP
         }
     }
     
     @IBAction func rightTapped(_ sender: UIButton) {
-        if !stickmanWithMarginTouchingMiddleRow() ||
-            stickmanWithMarginTouchingMiddleRow() &&
-            !stickmanWithMarginWillStepIntoMiddleColumnWith(deltaX: STEP) {
+        if !stickmanTouchingMiddleRow() ||
+            stickmanTouchingMiddleRow() &&
+            !stickmanWillStepIntoMiddleColumnWith(deltaX: STEP) {
             stickmanImageView.frame.origin.x += STEP
         }
     }
     
-    func stickmanWithMarginWillStepIntoMiddleColumnWith(deltaX: CGFloat) -> Bool {
+    func stickmanWillStepIntoMiddleColumnWith(deltaX: CGFloat) -> Bool {
         if deltaX == 0 { // not moving
             return false
         } else if deltaX > 0 { // going right
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func stickmanWithMarginWillStepIntoMiddleRowWith(deltaY: CGFloat) -> Bool {
+    func stickmanWillStepIntoMiddleRowWith(deltaY: CGFloat) -> Bool {
         if deltaY == 0 { // not moving
             return false
         } else if deltaY > 0 { // going down
@@ -71,12 +71,12 @@ class ViewController: UIViewController {
         }
     }
     
-    func stickmanWithMarginTouchingMiddleRow() -> Bool {
+    func stickmanTouchingMiddleRow() -> Bool {
         return stickmanImageView.frame.origin.y + stickmanImageView.frame.height >= blockView.frame.origin.y &&
             stickmanImageView.frame.origin.y <= blockView.frame.origin.y + blockView.frame.height
     }
 
-    func stickmanWithMarginTouchingMiddleColumn() -> Bool {
+    func stickmanTouchingMiddleColumn() -> Bool {
         return stickmanImageView.frame.origin.x + stickmanImageView.frame.width >= blockView.frame.origin.x &&
             stickmanImageView.frame.origin.x <= blockView.frame.origin.x + blockView.frame.width
     }
