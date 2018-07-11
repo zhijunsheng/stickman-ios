@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  stickman
+//  Deleteme
 //
-//  Created by Donald Sheng on 2018-06-24.
-//  Copyright © 2018 GoldThumb Inc. All rights reserved.
+//  Created by Kevin on 2018-07-10.
+//  Copyright © 2018 Kevin. All rights reserved.
 //
 
 import UIKit
