@@ -9,37 +9,73 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var stickManView: UIView!
+    
     @IBOutlet weak var blockView: UIView!
     
-    @IBOutlet weak var blockViewOrange: UIView!
+    let STEP: CGFloat = 10.0
     
-    @IBAction func downTapped(_ sender: UIButton) {
-        let y = blockView.frame.origin.y
-        print (y)
-        if y <= 650{
-            blockView.frame.origin.y += 10
+    @IBAction func downTapped(_ sender: UIButton) {    
+        if stickManY1() <= view.frame.height - stickManView.frame.height{
+            if !(stickManX2() > blockX1() && stickManX1() < blockX2() && stickManY1() < blockY2() && stickManY2() > blcokY1() - STEP){
+                stickManView.frame.origin.y += STEP
+            }
         }
     }
+    
     @IBAction func rightTapped(_ sender: UIButton) {
-        let x = blockView.frame.origin.x
-        print (x)
-        if x <= 350{
-            blockView.frame.origin.x += 10
+        if stickManX1() <= view.frame.width - stickManView.frame.width{
+            if !(stickManY2() > blcokY1() && stickManY1() < blockY2() && stickManX1() < blockX2() && stickManX2() > blockX1() - STEP){
+                stickManView.frame.origin.x += STEP
+            }
         }
     }
+    
     @IBAction func upTapped(_ sender: UIButton) {
-        let y = blockView.frame.origin.y
-        print (y)
-        if y >= 0{
-            blockView.frame.origin.y -= 10
+        if stickManY1() >= view.frame.origin.y{
+            if !(stickManX2() > blockX1() && stickManX1() < blockX2() && stickManY1() < blockY2() + STEP && stickManY2() > blcokY1()){
+                stickManView.frame.origin.y -= STEP
+            }
         }
     }
+    
     @IBAction func leftTapped(_ sender: UIButton) {
-        let x = blockView.frame.origin.x
-        print (x)
-        if x >= 0{
-            blockView.frame.origin.x -= 10
+        if stickManX1() >= view.frame.origin.x{
+            if !(stickManY2() > blcokY1() && stickManY1() < blockY2() && stickManX1() < blockX2() + STEP && stickManX2() > blockX1()){
+                stickManView.frame.origin.x -= STEP
+            }
         }
+    }
+    
+    func blockX1() -> CGFloat {
+        return blockView.frame.origin.x
+    }
+    
+    func blockX2() -> CGFloat {
+        return blockView.frame.origin.x + blockView.frame.width
+    }
+    
+    func blcokY1() -> CGFloat {
+        return blockView.frame.origin.y
+    }
+    
+    func blockY2() -> CGFloat {
+        return blockView.frame.origin.y + blockView.frame.height
+    }
+    
+    func stickManX1() -> CGFloat {
+        return stickManView.frame.origin.x
+    }
+    
+    func stickManX2() -> CGFloat {
+        return stickManView.frame.origin.x + stickManView.frame.width
+    }
+    
+    func stickManY1() -> CGFloat {
+        return stickManView.frame.origin.y
+    }
+    
+    func stickManY2() -> CGFloat {
+        return stickManView.frame.origin.y + stickManView.frame.height
     }
 }
-
