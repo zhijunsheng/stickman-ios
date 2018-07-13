@@ -13,6 +13,7 @@
 		0AA7B07220F52BFC00605C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7B07120F52BFC00605C10 /* Assets.xcassets */; };
 		0AA7B07520F52BFC00605C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7B07320F52BFC00605C10 /* LaunchScreen.storyboard */; };
 		0AA7B08020F52BFC00605C10 /* DeletemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7B07F20F52BFC00605C10 /* DeletemeTests.swift */; };
+		0AF0173C20F7D68500D358CC /* ClassStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0173B20F7D68500D358CC /* ClassStructTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0AA7B07B20F52BFC00605C10 /* DeletemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeletemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA7B07F20F52BFC00605C10 /* DeletemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletemeTests.swift; sourceTree = "<group>"; };
 		0AA7B08120F52BFC00605C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF0173B20F7D68500D358CC /* ClassStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				0AA7B07F20F52BFC00605C10 /* DeletemeTests.swift */,
+				0AF0173B20F7D68500D358CC /* ClassStructTests.swift */,
 				0AA7B08120F52BFC00605C10 /* Info.plist */,
 			);
 			path = DeletemeTests;
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA7B08020F52BFC00605C10 /* DeletemeTests.swift in Sources */,
+				0AF0173C20F7D68500D358CC /* ClassStructTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

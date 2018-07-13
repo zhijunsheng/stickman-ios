@@ -15,33 +15,33 @@ class ViewController: UIViewController {
     
     let STEP: CGFloat = 10.0
     
-    @IBAction func downTapped(_ sender: UIButton) {    
-        if stickManY1() <= view.frame.height - stickManView.frame.height{
-            if !(stickManX2() > blockX1() && stickManX1() < blockX2() && stickManY1() < blockY2() && stickManY2() > blcokY1() - STEP){
+    @IBAction func downTapped(_ sender: UIButton) {
+        if stickManY1() < view.frame.height - stickManView.frame.height {
+            if !(stickManX1() < blockX2() && stickManX2() > blockX1() && stickManY1() < blockY2() && stickManY2() > blockY1() - STEP){
                 stickManView.frame.origin.y += STEP
             }
         }
     }
     
     @IBAction func rightTapped(_ sender: UIButton) {
-        if stickManX1() <= view.frame.width - stickManView.frame.width{
-            if !(stickManY2() > blcokY1() && stickManY1() < blockY2() && stickManX1() < blockX2() && stickManX2() > blockX1() - STEP){
+        if stickManX1() <= view.frame.width - stickManView.frame.width {
+            if !(stickManX1() < blockX2() && stickManX2() > blockX1() - STEP && stickManY1() < blockY2() && stickManY2() > blockY1()){
                 stickManView.frame.origin.x += STEP
             }
         }
     }
     
     @IBAction func upTapped(_ sender: UIButton) {
-        if stickManY1() >= view.frame.origin.y{
-            if !(stickManX2() > blockX1() && stickManX1() < blockX2() && stickManY1() < blockY2() + STEP && stickManY2() > blcokY1()){
+        if stickManY1() >= view.frame.origin.y {
+            if !(stickManX1() < blockX2() && stickManX2() > blockX1() && stickManY1() < blockY2() + STEP && stickManY2() > blockY1()){
                 stickManView.frame.origin.y -= STEP
             }
         }
     }
     
     @IBAction func leftTapped(_ sender: UIButton) {
-        if stickManX1() >= view.frame.origin.x{
-            if !(stickManY2() > blcokY1() && stickManY1() < blockY2() && stickManX1() < blockX2() + STEP && stickManX2() > blockX1()){
+        if stickManX1() >= view.frame.origin.x {
+            if !(stickManX1() < blockX2() + STEP && stickManX2() > blockX1() && stickManY1() < blockY2() && stickManY2() > blockY1()){
                 stickManView.frame.origin.x -= STEP
             }
         }
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         return blockView.frame.origin.x + blockView.frame.width
     }
     
-    func blcokY1() -> CGFloat {
+    func blockY1() -> CGFloat {
         return blockView.frame.origin.y
     }
     
