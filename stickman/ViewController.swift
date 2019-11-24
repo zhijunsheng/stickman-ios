@@ -17,5 +17,11 @@ class ViewController: UIViewController {
         stickmanView.frame.origin.x = stickmanView.frame.origin.x - 50
 
     }
+    @IBAction func goUp(_ sender: UIButton) {
+        
+        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 50
+        
+        
+    }
 }
 
