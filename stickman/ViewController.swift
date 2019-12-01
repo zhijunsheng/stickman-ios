@@ -2,31 +2,78 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var stickmanView: UIView!
-    
+    @IBOutlet weak var stickmanView: StickmanView!
+    @IBOutlet weak var stickmanSecondView: StickmanSecondView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        stickmanView.isHidden = false
+        stickmanSecondView.isHidden = true
     }
+    
+    
 
     @IBAction func goLeft(_ sender: UIButton) {
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x - 50
+        stickmanView.frame.origin.x = stickmanView.frame.origin.x - 30
+        stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x - 30
+        
+        if stickmanView.isHidden {
+            stickmanView.isHidden = false
+            stickmanSecondView.isHidden = true
+        } else {
+            stickmanView.isHidden = true
+            stickmanSecondView.isHidden = false
+        }
+        
+        
+        
     }
     
     @IBAction func goUp(_ sender: UIButton) {
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 50
+        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 30
+        stickmanSecondView.frame.origin.y = stickmanSecondView.frame.origin.y - 30
+        
+        if stickmanView.isHidden {
+            stickmanView.isHidden = false
+            stickmanSecondView.isHidden = true
+        } else {
+            stickmanView.isHidden = true
+            stickmanSecondView.isHidden = false
+        }
+        
     }
     
     @IBAction func goDown(_ sender: UIButton) {
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y + 50
+        stickmanView.frame.origin.y = stickmanView.frame.origin.y + 30
+        stickmanSecondView.frame.origin.y = stickmanSecondView.frame.origin.y + 30
+        
+        if stickmanView.isHidden {
+            stickmanView.isHidden = false
+            stickmanSecondView.isHidden = true
+        } else {
+            stickmanView.isHidden = true
+            stickmanSecondView.isHidden = false
+        }
+        
     }
     
     @IBAction func goRight(_ sender: UIButton) {
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 50
+        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
+        stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
+        
+        if stickmanView.isHidden {
+            stickmanView.isHidden = false
+            stickmanSecondView.isHidden = true
+        } else {
+            stickmanView.isHidden = true
+            stickmanSecondView.isHidden = false
+        }
+        
     }
     
     @IBAction func goUpperRight(_ sender: UIButton) {
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 50
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 50
+        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
+        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 30
+        stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
+        stickmanSecondView.frame.origin.y = stickmanSecondView.frame.origin.y - 30
     }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A15BDDE6238DD768000AB7AE /* StickmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BDDE5238DD768000AB7AE /* StickmanView.swift */; };
+		A15BDDEA2391C8EF000AB7AE /* StickmanSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BDDE92391C8EF000AB7AE /* StickmanSecondView.swift */; };
 		A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191BD1A23888E6C0097DCEC /* AppDelegate.swift */; };
 		A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191BD1C23888E6C0097DCEC /* ViewController.swift */; };
 		A191BD2023888E6C0097DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD1E23888E6C0097DCEC /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		A15BDDE5238DD768000AB7AE /* StickmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView.swift; sourceTree = "<group>"; };
+		A15BDDE92391C8EF000AB7AE /* StickmanSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanSecondView.swift; sourceTree = "<group>"; };
 		A191BD1723888E6B0097DCEC /* stickman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191BD1A23888E6C0097DCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A191BD1C23888E6C0097DCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				A191BD1A23888E6C0097DCEC /* AppDelegate.swift */,
 				A191BD1C23888E6C0097DCEC /* ViewController.swift */,
 				A15BDDE5238DD768000AB7AE /* StickmanView.swift */,
+				A15BDDE92391C8EF000AB7AE /* StickmanSecondView.swift */,
 				A191BD1E23888E6C0097DCEC /* Main.storyboard */,
 				A191BD2123888E700097DCEC /* Assets.xcassets */,
 				A191BD2323888E700097DCEC /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15BDDEA2391C8EF000AB7AE /* StickmanSecondView.swift in Sources */,
 				A15BDDE6238DD768000AB7AE /* StickmanView.swift in Sources */,
 				A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */,
 				A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */,

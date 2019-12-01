@@ -10,7 +10,6 @@ import UIKit
 
 class StickmanView: UIView {
 
-    
     override func draw(_ rect: CGRect) {
         let pencil = UIBezierPath()
         pencil.move(to: CGPoint(x: 120, y: 50))
@@ -27,5 +26,4 @@ class StickmanView: UIView {
         circle.fill()
     }
     
-
 }
