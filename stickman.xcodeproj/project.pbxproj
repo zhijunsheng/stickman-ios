@@ -13,6 +13,7 @@
 		A191BD2223888E700097DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2123888E700097DCEC /* Assets.xcassets */; };
 		A191BD2523888E700097DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2323888E700097DCEC /* LaunchScreen.storyboard */; };
 		A5161BFB238C87BB00CE9A44 /* StickmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5161BFA238C87BB00CE9A44 /* StickmanView.swift */; };
+		A52C8E02238F305A000E9459 /* Stickman2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C8E01238F305A000E9459 /* Stickman2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A191BD2B23888E710097DCEC /* stickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191BD3123888E710097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5161BFA238C87BB00CE9A44 /* StickmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView.swift; sourceTree = "<group>"; };
+		A52C8E01238F305A000E9459 /* Stickman2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A191BD1A23888E6C0097DCEC /* AppDelegate.swift */,
 				A5161BFA238C87BB00CE9A44 /* StickmanView.swift */,
+				A52C8E01238F305A000E9459 /* Stickman2View.swift */,
 				A191BD1C23888E6C0097DCEC /* ViewController.swift */,
 				A191BD1E23888E6C0097DCEC /* Main.storyboard */,
 				A191BD2123888E700097DCEC /* Assets.xcassets */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5161BFB238C87BB00CE9A44 /* StickmanView.swift in Sources */,
+				A52C8E02238F305A000E9459 /* Stickman2View.swift in Sources */,
 				A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */,
 				A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */,
 			);
