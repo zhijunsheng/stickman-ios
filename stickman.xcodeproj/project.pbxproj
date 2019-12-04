@@ -81,8 +81,8 @@
 			children = (
 				A191BD1A23888E6C0097DCEC /* AppDelegate.swift */,
 				A191BD1C23888E6C0097DCEC /* ViewController.swift */,
-				A15BDDE5238DD768000AB7AE /* StickmanView.swift */,
 				A15BDDE92391C8EF000AB7AE /* StickmanSecondView.swift */,
+				A15BDDE5238DD768000AB7AE /* StickmanView.swift */,
 				A191BD1E23888E6C0097DCEC /* Main.storyboard */,
 				A191BD2123888E700097DCEC /* Assets.xcassets */,
 				A191BD2323888E700097DCEC /* LaunchScreen.storyboard */,

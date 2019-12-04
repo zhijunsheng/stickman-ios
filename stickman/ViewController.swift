@@ -75,5 +75,13 @@ class ViewController: UIViewController {
         stickmanView.frame.origin.y = stickmanView.frame.origin.y - 30
         stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
         stickmanSecondView.frame.origin.y = stickmanSecondView.frame.origin.y - 30
+        
+        if stickmanView.isHidden {
+            stickmanView.isHidden = false
+            stickmanSecondView.isHidden = true
+        } else {
+            stickmanView.isHidden = true
+            stickmanSecondView.isHidden = false
+        }
     }
 }
