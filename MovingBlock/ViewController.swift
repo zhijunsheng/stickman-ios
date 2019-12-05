@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let Step : CGFloat = 5.0
+    
+    let step : CGFloat = 5.0
     
     @IBOutlet weak var stickManImageView: UIImageView!
     @IBOutlet weak var blockView: UIView!
@@ -21,43 +22,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func leftTapped(_ sender: UIButton) {
-        
-        /*
-        93.0
-        401.0
-        70.0
-        37.0
-        */
-        print(blockView.frame)
-        print(blockView.frame.origin)
-        print(blockView.frame.origin.x)
-        print(blockView.frame.origin.y)
-        print(blockView.frame.width)
-        print(blockView.frame.height)
-        //stik man
-        print(stickManImageView.frame)
-        
-        // X
-        let stickManX = stickManImageView.frame.origin.x
-        let blockViewX = blockView.frame.origin.x
-        let blockViewWidth = blockView.frame.width
-        let stickManWidth = stickManImageView.frame.width
-        
-        // Y
-        let stickManY = stickManImageView.frame.origin.y
-        let stickManHeight = stickManImageView.frame.height
-        let blockViewY = blockView.frame.origin.y
-        let blockViewHeight = blockView.frame.height
-        
-        
-        if stickManY + stickManHeight < blockViewY || blockViewHeight + blockViewY < stickManY {
-            stickManImageView.frame.origin.x -= Step
-        } else {
-            if stickManX > blockViewX + blockViewWidth || stickManWidth + stickManX < blockViewX {
-                stickManImageView.frame.origin.x -= Step
-        }
+        blockView.frame.origin.x -= step
     }
-}
     
     @IBAction func upTapped(_ sender: UIButton) {
     
@@ -74,10 +40,10 @@ class ViewController: UIViewController {
         let stickManHeight = stickManImageView.frame.height
         
         if stickManX > blockViewWidth + blockViewX || stickManWidth + stickManX < blockViewX {
-            stickManImageView.frame.origin.y -= Step
+            stickManImageView.frame.origin.y -= step
         } else {
             if stickManY > blockViewHeight + blockViewY || stickManHeight + stickManY < blockViewY {
-                stickManImageView.frame.origin.y -= Step
+                stickManImageView.frame.origin.y -= step
             }
         }
     }
@@ -97,10 +63,10 @@ class ViewController: UIViewController {
         let stickManHeight = stickManImageView.frame.height
         
         if stickManX > blockViewX + blockViewWidth || stickManWidth + stickManX < blockViewX {
-            stickManImageView.frame.origin.y += Step
+            stickManImageView.frame.origin.y += step
         } else {
             if stickManY > blockViewHeight + blockViewY || stickManHeight + stickManY < blockViewY {
-                stickManImageView.frame.origin.y += Step
+                stickManImageView.frame.origin.y += step
             }
         }
     }
@@ -119,10 +85,10 @@ class ViewController: UIViewController {
         let blockViewHeight = blockView.frame.height
         
         if stickManY < blockViewY || stickManY > blockViewHeight + blockViewY {
-            stickManImageView.frame.origin.x += Step
+            stickManImageView.frame.origin.x += step
         } else {
             if stickManX > blockViewWidth + blockViewX || stickManX + stickManWidth < blockViewX {
-                stickManImageView.frame.origin.x += Step
+                stickManImageView.frame.origin.x += step
             }
         }
     }
@@ -143,21 +109,21 @@ class ViewController: UIViewController {
         
         
         if stickManY + stickManHeight < blockViewY || blockViewHeight + blockViewY < stickManY {
-            stickManImageView.frame.origin.y -= Step
-            stickManImageView.frame.origin.x -= Step
+            stickManImageView.frame.origin.y -= step
+            stickManImageView.frame.origin.x -= step
         } else {
             if stickManX > blockViewX + blockViewWidth || stickManWidth + stickManX < blockViewX {
-                stickManImageView.frame.origin.y -= Step
-                stickManImageView.frame.origin.x -= Step
+                stickManImageView.frame.origin.y -= step
+                stickManImageView.frame.origin.x -= step
             }
         }
         if stickManX > blockViewWidth + blockViewX || stickManWidth + stickManX < blockViewX {
-            stickManImageView.frame.origin.y -= Step
-            stickManImageView.frame.origin.x -= Step
+            stickManImageView.frame.origin.y -= step
+            stickManImageView.frame.origin.x -= step
         } else {
             if stickManY > blockViewHeight + blockViewY || stickManHeight + stickManY < blockViewY {
-                stickManImageView.frame.origin.y -= Step
-                stickManImageView.frame.origin.x -= Step
+                stickManImageView.frame.origin.y -= step
+                stickManImageView.frame.origin.x -= step
             }
         }
     }
@@ -179,22 +145,22 @@ class ViewController: UIViewController {
         
         
         if stickManY + stickManHeight < blockViewY || blockViewHeight + blockViewY < stickManY {
-            stickManImageView.frame.origin.x -= Step
-            stickManImageView.frame.origin.y += Step
+            stickManImageView.frame.origin.x -= step
+            stickManImageView.frame.origin.y += step
         } else {
             if stickManX > blockViewX + blockViewWidth || stickManWidth + stickManX < blockViewX {
-                stickManImageView.frame.origin.x -= Step
-                stickManImageView.frame.origin.y += Step
+                stickManImageView.frame.origin.x -= step
+                stickManImageView.frame.origin.y += step
             }
         }
         if stickManX > blockViewX + blockViewWidth || stickManWidth + stickManX < blockViewX {
             
-            stickManImageView.frame.origin.x -= Step
-            stickManImageView.frame.origin.y += Step
+            stickManImageView.frame.origin.x -= step
+            stickManImageView.frame.origin.y += step
         } else {
             if stickManY > blockViewHeight + blockViewY || stickManHeight + stickManY < blockViewY {
-                stickManImageView.frame.origin.x -= Step
-                stickManImageView.frame.origin.y += Step
+                stickManImageView.frame.origin.x -= step
+                stickManImageView.frame.origin.y += step
             }
         }
     }
@@ -215,22 +181,22 @@ class ViewController: UIViewController {
         let stickManHeight = stickManImageView.frame.height
         
         if stickManX > blockViewX + blockViewWidth || stickManWidth + stickManX < blockViewX {
-            stickManImageView.frame.origin.y += Step
-            stickManImageView.frame.origin.x += Step
+            stickManImageView.frame.origin.y += step
+            stickManImageView.frame.origin.x += step
         } else {
             if stickManY > blockViewHeight + blockViewY || stickManHeight + stickManY < blockViewY {
-                stickManImageView.frame.origin.y += Step
-                stickManImageView.frame.origin.x += Step
+                stickManImageView.frame.origin.y += step
+                stickManImageView.frame.origin.x += step
             }
         }
         if stickManY + stickManHeight < blockViewY || stickManY > blockViewHeight + blockViewY {
-            stickManImageView.frame.origin.y += Step
-            stickManImageView.frame.origin.x += Step
+            stickManImageView.frame.origin.y += step
+            stickManImageView.frame.origin.x += step
         } else {
             if stickManX > blockViewWidth + blockViewX || stickManX + stickManWidth < blockViewX {
                 
-                stickManImageView.frame.origin.y += Step
-                stickManImageView.frame.origin.x += Step
+                stickManImageView.frame.origin.y += step
+                stickManImageView.frame.origin.x += step
             }
         }
     }
@@ -249,22 +215,22 @@ class ViewController: UIViewController {
         let stickManHeight = stickManImageView.frame.height
         
         if stickManX > blockViewWidth + blockViewX || stickManWidth + stickManX < blockViewX {
-            stickManImageView.frame.origin.y -= Step
-            stickManImageView.frame.origin.x += Step
+            stickManImageView.frame.origin.y -= step
+            stickManImageView.frame.origin.x += step
         } else {
             if stickManY > blockViewHeight + blockViewY || stickManHeight + stickManY < blockViewY {
-                stickManImageView.frame.origin.y -= Step
-                stickManImageView.frame.origin.x += Step
+                stickManImageView.frame.origin.y -= step
+                stickManImageView.frame.origin.x += step
             }
         }
         if stickManY < blockViewY || stickManY > blockViewHeight + blockViewY {
-            stickManImageView.frame.origin.y -= Step
-            stickManImageView.frame.origin.x += Step
+            stickManImageView.frame.origin.y -= step
+            stickManImageView.frame.origin.x += step
         } else {
             if stickManX > blockViewWidth + blockViewX || stickManX + stickManWidth < blockViewX {
                 
-                stickManImageView.frame.origin.y -= Step
-                stickManImageView.frame.origin.x += Step
+                stickManImageView.frame.origin.y -= step
+                stickManImageView.frame.origin.x += step
             }
         }
     }
