@@ -12,10 +12,9 @@ class ViewController: UIViewController {
         stickmanSecondView.isHidden = true
     }
 
-    @IBAction func goLeft(_ sender: UIButton) {
-        
+    @IBAction func goLeft(_ sender: UIButton) {        
         if stickmanView.frame.origin.x >= 30 {
-           stickmanView.frame.origin.x = stickmanView.frame.origin.x - 30
+            stickmanView.frame.origin.x = stickmanView.frame.origin.x - 30
             stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x - 30
         }
         
@@ -60,8 +59,8 @@ class ViewController: UIViewController {
     
     @IBAction func goRight(_ sender: UIButton) {
         if stickmanView.frame.origin.x <= 500 {
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
-        stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
+            stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
+            stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
         }
         
         if stickmanView.isHidden {
@@ -75,12 +74,14 @@ class ViewController: UIViewController {
     
     @IBAction func goUpperRight(_ sender: UIButton) {
         if stickmanView.frame.origin.x <= 500 {
-        if stickmanView.frame.origin.y >= 30 {
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 30
-        stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
-        stickmanSecondView.frame.origin.y = stickmanSecondView.frame.origin.y - 30
-            }}
+            if stickmanView.frame.origin.y >= 30 {
+                stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
+                stickmanView.frame.origin.y = stickmanView.frame.origin.y - 30
+                stickmanSecondView.frame.origin.x = stickmanSecondView.frame.origin.x + 30
+                stickmanSecondView.frame.origin.y = stickmanSecondView.frame.origin.y - 30
+            }
+        }
+        
         if stickmanView.isHidden {
             stickmanView.isHidden = false
             stickmanSecondView.isHidden = true
