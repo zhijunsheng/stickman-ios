@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StickmanView: UIView {
+class Stickman1View: UIView {
 
     
    
