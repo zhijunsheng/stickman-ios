@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MovingBlock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8x-Xn-1Ka">
@@ -90,12 +90,8 @@
                                     <action selector="diagonalTapped3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I8d-LS-1cz"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stick" translatesAutoresizingMaskIntoConstraints="NO" id="Qzv-IG-X8g">
-                                <rect key="frame" x="159" y="302" width="56" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRT-Wp-2Te" customClass="StickmanView" customModule="MovingBlock" customModuleProvider="target">
-                                <rect key="frame" x="113" y="236" width="149" height="174"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRT-Wp-2Te" customClass="StickmanView1" customModule="MovingBlock" customModuleProvider="target">
+                                <rect key="frame" x="108" y="212" width="157" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -105,15 +101,11 @@
                     </view>
                     <connections>
                         <outlet property="blockView" destination="NRT-Wp-2Te" id="w8J-hA-ruu"/>
-                        <outlet property="stickManImageView" destination="Qzv-IG-X8g" id="y8U-2Q-lPR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2372" y="287.40629685157421"/>
+            <point key="canvasLocation" x="-2372.6618705035971" y="287.0503597122302"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="stick" width="165" height="240"/>
-    </resources>
 </document>

@@ -14,7 +14,10 @@
 		756149A72093EEE00091DCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756149A52093EEE00091DCF4 /* LaunchScreen.storyboard */; };
 		756149B22093EEE00091DCF4 /* MovingBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756149B12093EEE00091DCF4 /* MovingBlockTests.swift */; };
 		756149BD20A65A4B0091DCF4 /* WhileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756149BC20A65A4B0091DCF4 /* WhileTests.swift */; };
-		75B6C3DA2398A58800A22D61 /* StickmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B6C3D92398A58800A22D61 /* StickmanView.swift */; };
+		75B6C3DA2398A58800A22D61 /* StickmanView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B6C3D92398A58800A22D61 /* StickmanView1.swift */; };
+		75B6C3DC239AA47600A22D61 /* StickmanView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B6C3DB239AA47600A22D61 /* StickmanView2.swift */; };
+		75B6C3DE239CBA8300A22D61 /* StickmanView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B6C3DD239CBA8300A22D61 /* StickmanView3.swift */; };
+		75B6C3E0239CBD1A00A22D61 /* StickmanView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B6C3DF239CBD1A00A22D61 /* StickmanView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,10 @@
 		756149B12093EEE00091DCF4 /* MovingBlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingBlockTests.swift; sourceTree = "<group>"; };
 		756149B32093EEE00091DCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756149BC20A65A4B0091DCF4 /* WhileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileTests.swift; sourceTree = "<group>"; };
-		75B6C3D92398A58800A22D61 /* StickmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView.swift; sourceTree = "<group>"; };
+		75B6C3D92398A58800A22D61 /* StickmanView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView1.swift; sourceTree = "<group>"; };
+		75B6C3DB239AA47600A22D61 /* StickmanView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView2.swift; sourceTree = "<group>"; };
+		75B6C3DD239CBA8300A22D61 /* StickmanView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView3.swift; sourceTree = "<group>"; };
+		75B6C3DF239CBD1A00A22D61 /* StickmanView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,10 @@
 				756149A32093EEE00091DCF4 /* Assets.xcassets */,
 				756149A52093EEE00091DCF4 /* LaunchScreen.storyboard */,
 				756149A82093EEE00091DCF4 /* Info.plist */,
-				75B6C3D92398A58800A22D61 /* StickmanView.swift */,
+				75B6C3D92398A58800A22D61 /* StickmanView1.swift */,
+				75B6C3DB239AA47600A22D61 /* StickmanView2.swift */,
+				75B6C3DD239CBA8300A22D61 /* StickmanView3.swift */,
+				75B6C3DF239CBD1A00A22D61 /* StickmanView4.swift */,
 			);
 			path = MovingBlock;
 			sourceTree = "<group>";
@@ -203,8 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B6C3DA2398A58800A22D61 /* StickmanView.swift in Sources */,
+				75B6C3DA2398A58800A22D61 /* StickmanView1.swift in Sources */,
+				75B6C3DC239AA47600A22D61 /* StickmanView2.swift in Sources */,
 				7561499F2093EEDE0091DCF4 /* ViewController.swift in Sources */,
+				75B6C3E0239CBD1A00A22D61 /* StickmanView4.swift in Sources */,
+				75B6C3DE239CBA8300A22D61 /* StickmanView3.swift in Sources */,
 				7561499D2093EEDE0091DCF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
