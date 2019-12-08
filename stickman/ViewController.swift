@@ -4,9 +4,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var stickmanView: Stickman1View!
-    
+    @IBOutlet weak var stickman1View: Stickman1View!
     @IBOutlet weak var stickman2View: Stickman2View!
+    @IBOutlet weak var stickman3View: Stickman3View!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,42 +30,64 @@ class ViewController: UIViewController {
         // stickmanView.frame.origin.x 250
         // stickmanView.frame.origin.x 300
         // stickmanView.frame.origin.x 350
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 50
+        stickman1View.frame.origin.x = stickman1View.frame.origin.x + 50
         stickman2View.frame.origin.x = stickman2View.frame.origin.x + 50
-        
-        if stickmanView.isHidden {
-            stickmanView.isHidden = false
+        stickman3View.frame.origin.x = stickman3View.frame.origin.x + 50
+ 
+        if stickman1View.isHidden {
+            stickman1View.isHidden = false
         } else {
-            stickmanView.isHidden = true
+            stickman1View.isHidden = true
         }
     }
     @IBAction func goUp(_ sender: Any) {
 //        if stickmanView.frame.origin.y <
         
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 50
+        stickman1View.frame.origin.y = stickman1View.frame.origin.y - 50
         stickman2View.frame.origin.y = stickman2View.frame.origin.y - 50
+        stickman3View.frame.origin.y = stickman3View.frame.origin.y - 50
+        
+        if stickman1View.isHidden {
+            stickman1View.isHidden = false
+        } else {
+            stickman1View.isHidden = true
+        }
     }
    
     @IBAction func goLeft(_ sender: Any) {
-        if stickmanView.frame.origin.x < 0.0 {
+        if stickman1View.frame.origin.x < 0.0 {
             return
         }
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x - 50
+        stickman1View.frame.origin.x = stickman1View.frame.origin.x - 50
         stickman2View.frame.origin.x = stickman2View.frame.origin.x - 50
         
-        if stickmanView.isHidden {
-            stickmanView.isHidden = false
+        
+        if stickman1View.isHidden {
+            stickman1View.isHidden = false
         } else {
-            stickmanView.isHidden = true
+            stickman1View.isHidden = true
         }
+        
     }
     @IBAction func goDown(_ sender: Any) {
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y
+        stickman1View.frame.origin.y = stickman1View.frame.origin.y
         + 50
         
         stickman2View.frame.origin.y = stickman2View.frame.origin.y + 50
         
+        stickman3View.frame.origin.y = stickman3View.frame.origin.y + 50
+        
+        if stickman1View.isHidden {
+            stickman1View.isHidden = false
+        } else {
+            stickman1View.isHidden = true
+        }
+        
+        
+        
     }
+    
+    
     
     
 }
