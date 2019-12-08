@@ -12,7 +12,8 @@
 		A191BD2023888E6C0097DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD1E23888E6C0097DCEC /* Main.storyboard */; };
 		A191BD2223888E700097DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2123888E700097DCEC /* Assets.xcassets */; };
 		A191BD2523888E700097DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2323888E700097DCEC /* LaunchScreen.storyboard */; };
-		ECFBEC8C239BE1B7001F55A6 /* StickmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBEC8B239BE1B7001F55A6 /* StickmanView.swift */; };
+		EC80BA37239D327600780E81 /* Stickman2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80BA36239D327600780E81 /* Stickman2View.swift */; };
+		ECFBEC8C239BE1B7001F55A6 /* Stickman1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBEC8B239BE1B7001F55A6 /* Stickman1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,8 @@
 		A191BD2623888E700097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A191BD2B23888E710097DCEC /* stickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191BD3123888E710097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECFBEC8B239BE1B7001F55A6 /* StickmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView.swift; sourceTree = "<group>"; };
+		EC80BA36239D327600780E81 /* Stickman2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman2View.swift; sourceTree = "<group>"; };
+		ECFBEC8B239BE1B7001F55A6 /* Stickman1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,8 @@
 			children = (
 				A191BD1A23888E6C0097DCEC /* AppDelegate.swift */,
 				A191BD1C23888E6C0097DCEC /* ViewController.swift */,
-				ECFBEC8B239BE1B7001F55A6 /* StickmanView.swift */,
+				ECFBEC8B239BE1B7001F55A6 /* Stickman1View.swift */,
+				EC80BA36239D327600780E81 /* Stickman2View.swift */,
 				A191BD1E23888E6C0097DCEC /* Main.storyboard */,
 				A191BD2123888E700097DCEC /* Assets.xcassets */,
 				A191BD2323888E700097DCEC /* LaunchScreen.storyboard */,
@@ -198,8 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */,
+				EC80BA37239D327600780E81 /* Stickman2View.swift in Sources */,
 				A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */,
-				ECFBEC8C239BE1B7001F55A6 /* StickmanView.swift in Sources */,
+				ECFBEC8C239BE1B7001F55A6 /* Stickman1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

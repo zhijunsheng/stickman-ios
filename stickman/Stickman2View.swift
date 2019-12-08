@@ -1,9 +1,7 @@
 import UIKit
 
-class StickmanView: UIView {
+class Stickman2View: UIView {
 
-    
-    
     override func draw(_ rect: CGRect) {
         let pencil = UIBezierPath()
         
@@ -29,5 +27,7 @@ class StickmanView: UIView {
         circle.stroke()
         #colorLiteral(red: 0.3098039329, green: 0.2039215714, blue: 0.03921568766, alpha: 1).setFill()
         circle.fill()
+        
+        
     }
-}
+ }
