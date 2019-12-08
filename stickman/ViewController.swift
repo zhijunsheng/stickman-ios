@@ -70,4 +70,14 @@ class ViewController: UIViewController {
             stickmanSecondView.isHidden = false
         }
     }
+    
+    @IBAction func startTimer(_ sender: UIButton) {
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { (timer) in
+            print("hello")
+            self.stickmanView.frame.origin.x = self.stickmanView.frame.origin.x - 30
+            self.stickmanSecondView.frame.origin.x = self.stickmanSecondView.frame.origin.x - 30
+            self.animate()
+        }
+    }
+    
 }

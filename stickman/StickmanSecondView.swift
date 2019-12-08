@@ -9,8 +9,6 @@
 import UIKit
 
 class StickmanSecondView: UIView {
-
-    
     
     override func draw(_ rect: CGRect) {
         let pencil = UIBezierPath()
@@ -44,7 +42,7 @@ class StickmanSecondView: UIView {
         
         pencil.stroke()
         
-        let circle = UIBezierPath(arcCenter: CGPoint(x: 120, y: 50), radius: 25, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
+        let circle = UIBezierPath(arcCenter: CGPoint(x: 120, y: 50), radius: 35, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
         circle.fill()
     }
  
