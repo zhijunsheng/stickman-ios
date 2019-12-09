@@ -4,10 +4,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var stickmanView: UIView!
+    @IBOutlet weak var stickman1View: Stickman1View!
+    @IBOutlet weak var stickman2View: Stickman2View!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        stickman1View.frame.origin.x = stickman2View.frame.origin.x
     }
 
     
@@ -17,26 +19,35 @@ class ViewController: UIViewController {
     // v down
     
     @IBAction func left(_ sender: Any) {
-        print(stickmanView.frame.origin.x)
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x - 30
+        stickman1View.frame.origin.x = stickman1View.frame.origin.x - 30
+        stickman2View.frame.origin.x = stickman2View.frame.origin.x - 30
+        if stickman1View.isHidden {
+            stickman1View.isHidden = false
+            stickman2View.isHidden = true
+        } else {
+            stickman1View.isHidden = true
+            stickman2View.isHidden = false
+        }
     }
     
     @IBAction func right(_ sender: Any) {
-        print(stickmanView.frame.origin.x)
-        stickmanView.frame.origin.x = stickmanView.frame.origin.x + 30
+        stickman1View.frame.origin.x = stickman1View.frame.origin.x + 30
+        stickman2View.frame.origin.x = stickman2View.frame.origin.x + 30
+        stickman1View.isHidden = false
+        stickman2View.isHidden = false
     }
-    
     
     @IBAction func up(_ sender: Any) {
-        print(stickmanView.frame.origin.y)
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y - 30
+        stickman1View.frame.origin.y = stickman1View.frame.origin.y - 30
+        stickman2View.frame.origin.y = stickman2View.frame.origin.y - 30
+        stickman1View.isHidden = true
     }
-    
     
     @IBAction func down(_ sender: Any) {
-        print(stickmanView.frame.origin.y)
-        stickmanView.frame.origin.y = stickmanView.frame.origin.y + 30
+        stickman1View.frame.origin.y = stickman1View.frame.origin.y + 30
+        stickman2View.frame.origin.y = stickman2View.frame.origin.y + 30
+        stickman1View.isHidden = true
+
     }
-    
 }
 

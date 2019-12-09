@@ -1,9 +1,8 @@
 import UIKit
 
-class StickmanView: UIView {
+class Stickman2View: UIView {
 
     override func draw(_ rect: CGRect) {
-        
         let head = UIBezierPath(arcCenter: CGPoint(x: 90, y: 60), radius: 30, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
         head.stroke()
         
@@ -25,5 +24,6 @@ class StickmanView: UIView {
         
         pen.stroke()
     }
+    
 
 }

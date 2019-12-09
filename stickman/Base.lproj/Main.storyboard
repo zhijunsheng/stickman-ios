@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zck-vV-W2D" customClass="StickmanView" customModule="stickman" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zck-vV-W2D" customClass="Stickman1View" customModule="stickman" customModuleProvider="target">
                                 <rect key="frame" x="185" y="263" width="174" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,6 +48,11 @@
                                     <action selector="down:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQ0-oh-zh2"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hlR-5k-fOL" customClass="Stickman2View" customModule="stickman" customModuleProvider="target">
+                                <rect key="frame" x="411" y="263" width="170" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-k6-TuP">
                                 <rect key="frame" x="199" y="865" width="112" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -62,12 +67,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="stickmanView" destination="Zck-vV-W2D" id="DRO-Wj-423"/>
+                        <outlet property="stickman1View" destination="Zck-vV-W2D" id="DRO-Wj-423"/>
+                        <outlet property="stickman2View" destination="hlR-5k-fOL" id="kAP-Vp-MGc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116.40625" y="103.7109375"/>
+            <point key="canvasLocation" x="40" y="-18"/>
         </scene>
     </scenes>
 </document>
