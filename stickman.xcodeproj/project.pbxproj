@@ -12,6 +12,7 @@
 		A191BD2023888E6C0097DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD1E23888E6C0097DCEC /* Main.storyboard */; };
 		A191BD2223888E700097DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2123888E700097DCEC /* Assets.xcassets */; };
 		A191BD2523888E700097DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2323888E700097DCEC /* LaunchScreen.storyboard */; };
+		B9A30CDB239DCE670016165B /* StickmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A30CDA239DCE670016165B /* StickmanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		A191BD2623888E700097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A191BD2B23888E710097DCEC /* stickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191BD3123888E710097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A30CDA239DCE670016165B /* StickmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickmanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				A191BD2123888E700097DCEC /* Assets.xcassets */,
 				A191BD2323888E700097DCEC /* LaunchScreen.storyboard */,
 				A191BD2623888E700097DCEC /* Info.plist */,
+				B9A30CDA239DCE670016165B /* StickmanView.swift */,
 			);
 			path = stickman;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A30CDB239DCE670016165B /* StickmanView.swift in Sources */,
 				A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */,
 				A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */,
 			);
@@ -357,13 +361,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6JWS9X7NVP;
 				INFOPLIST_FILE = stickman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elainexu.stickman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,13 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6JWS9X7NVP;
 				INFOPLIST_FILE = stickman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elainexu.stickman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
