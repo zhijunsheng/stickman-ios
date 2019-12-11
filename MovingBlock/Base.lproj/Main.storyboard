@@ -95,12 +95,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6RA-BF-TX3" customClass="StickmanView2" customModule="MovingBlock" customModuleProvider="target">
+                                <rect key="frame" x="291" y="302" width="148" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bNH-4u-Au3" customClass="StickmanView3" customModule="MovingBlock" customModuleProvider="target">
+                                <rect key="frame" x="108" y="334" width="157" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ejk-9u-aYH" customClass="StickmanView4" customModule="MovingBlock" customModuleProvider="target">
+                                <rect key="frame" x="20" y="15" width="164" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="blockView" destination="NRT-Wp-2Te" id="w8J-hA-ruu"/>
+                        <outlet property="blockView1" destination="NRT-Wp-2Te" id="w8J-hA-ruu"/>
+                        <outlet property="blockView2" destination="6RA-BF-TX3" id="Bel-CJ-d6q"/>
+                        <outlet property="blockView3" destination="bNH-4u-Au3" id="ljB-6P-XWw"/>
+                        <outlet property="blockView4" destination="ejk-9u-aYH" id="D5k-bF-dOq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
