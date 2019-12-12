@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		73F3668D23992DB7000CCF75 /* Stickman1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3668C23992DB7000CCF75 /* Stickman1View.swift */; };
 		73F3668F239E732B000CCF75 /* Stickman2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3668E239E732B000CCF75 /* Stickman2View.swift */; };
+		73F3669123A2690D000CCF75 /* Stickman3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3669023A2690D000CCF75 /* Stickman3View.swift */; };
 		A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191BD1A23888E6C0097DCEC /* AppDelegate.swift */; };
 		A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191BD1C23888E6C0097DCEC /* ViewController.swift */; };
 		A191BD2023888E6C0097DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD1E23888E6C0097DCEC /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		73F3668C23992DB7000CCF75 /* Stickman1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman1View.swift; sourceTree = "<group>"; };
 		73F3668E239E732B000CCF75 /* Stickman2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman2View.swift; sourceTree = "<group>"; };
+		73F3669023A2690D000CCF75 /* Stickman3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman3View.swift; sourceTree = "<group>"; };
 		A191BD1723888E6B0097DCEC /* stickman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191BD1A23888E6C0097DCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A191BD1C23888E6C0097DCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				A191BD2623888E700097DCEC /* Info.plist */,
 				73F3668C23992DB7000CCF75 /* Stickman1View.swift */,
 				73F3668E239E732B000CCF75 /* Stickman2View.swift */,
+				73F3669023A2690D000CCF75 /* Stickman3View.swift */,
 			);
 			path = stickman;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				73F3668F239E732B000CCF75 /* Stickman2View.swift in Sources */,
 				A191BD1D23888E6C0097DCEC /* ViewController.swift in Sources */,
 				A191BD1B23888E6C0097DCEC /* AppDelegate.swift in Sources */,
+				73F3669123A2690D000CCF75 /* Stickman3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

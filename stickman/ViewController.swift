@@ -6,10 +6,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var stickman1View: Stickman1View!
     @IBOutlet weak var stickman2View: Stickman2View!
+    @IBOutlet weak var stickman3View: Stickman3View!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        stickman1View.frame.origin.x = stickman2View.frame.origin.x
+        stickman1View.frame.origin.x = 300
+        stickman2View.frame.origin.x = 300
+        stickman3View.frame.origin.x = 300
+        stickman1View.backgroundColor = .white
+        stickman2View.backgroundColor = .white
     }
 
     
@@ -33,8 +38,13 @@ class ViewController: UIViewController {
     @IBAction func right(_ sender: Any) {
         stickman1View.frame.origin.x = stickman1View.frame.origin.x + 30
         stickman2View.frame.origin.x = stickman2View.frame.origin.x + 30
-        stickman1View.isHidden = false
-        stickman2View.isHidden = false
+        if stickman1View.isHidden {
+            stickman1View.isHidden = false
+            stickman2View.isHidden = true
+        } else {
+            stickman1View.isHidden = true
+            stickman2View.isHidden = false
+        }
     }
     
     @IBAction func up(_ sender: Any) {

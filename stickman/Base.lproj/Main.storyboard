@@ -17,10 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zck-vV-W2D" customClass="Stickman1View" customModule="stickman" customModuleProvider="target">
-                                <rect key="frame" x="185" y="263" width="174" height="331"/>
+                                <rect key="frame" x="396" y="263" width="174" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-k6-TuP">
+                                <rect key="frame" x="199" y="865" width="112" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <state key="normal" title="⬅️"/>
+                                <connections>
+                                    <action selector="left:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sdl-vF-a6H"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kf6-Yq-FVi">
                                 <rect key="frame" x="331" y="892" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,19 +58,15 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hlR-5k-fOL" customClass="Stickman2View" customModule="stickman" customModuleProvider="target">
-                                <rect key="frame" x="411" y="263" width="170" height="331"/>
+                                <rect key="frame" x="578" y="263" width="174" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FL-k6-TuP">
-                                <rect key="frame" x="199" y="865" width="112" height="144"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3y-08-uUS" customClass="Stickman3View" customModule="stickman" customModuleProvider="target">
+                                <rect key="frame" x="216" y="263" width="174" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                <state key="normal" title="⬅️"/>
-                                <connections>
-                                    <action selector="left:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sdl-vF-a6H"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,11 +74,12 @@
                     <connections>
                         <outlet property="stickman1View" destination="Zck-vV-W2D" id="DRO-Wj-423"/>
                         <outlet property="stickman2View" destination="hlR-5k-fOL" id="kAP-Vp-MGc"/>
+                        <outlet property="stickman3View" destination="p3y-08-uUS" id="QbF-0M-8Lp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40" y="-18"/>
+            <point key="canvasLocation" x="39.84375" y="-18.1640625"/>
         </scene>
     </scenes>
 </document>
