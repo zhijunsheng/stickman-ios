@@ -22,7 +22,7 @@ class StickmanView2: UIView {
         
         body.move(to: CGPoint(x: 50, y: 60))
         body.addLine(to: CGPoint(x: 50, y: 90))
-        body.addLine(to: CGPoint(x: 45, y: 115))
+        body.addLine(to: CGPoint(x: 40, y: 115))
         body.move(to: CGPoint(x: 50, y: 90))
         body.addLine(to: CGPoint(x: 55, y: 115))
         body.move(to: CGPoint(x: 50, y: 65))

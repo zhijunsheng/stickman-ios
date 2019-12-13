@@ -32,8 +32,8 @@ class StickmanView3: UIView {
         
         body.lineWidth = 3
         
-        head.stroke()
-        body.stroke()
+//        head.stroke()
+//        body.stroke()
     }
     
 }
