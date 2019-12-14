@@ -6,19 +6,19 @@ class Stickman2View: UIView {
         let pencil = UIBezierPath()
         
         pencil.move(to: CGPoint(x: 38, y: 71))
-        pencil.addLine(to: CGPoint(x:77 , y: 121))
+        pencil.addLine(to: CGPoint(x:38 , y: 121))
         
         pencil.move(to: CGPoint(x: 38, y: 71))
-        pencil.addLine(to: CGPoint(x:0 , y: 121))
+        pencil.addLine(to: CGPoint(x:38 , y: 121))
         
         pencil.move(to: CGPoint(x: 38, y: 38))
         pencil.addLine(to: CGPoint(x:38 , y:123))
         
         pencil.move(to: CGPoint(x: 38, y: 123))
-        pencil.addLine(to: CGPoint(x:0 , y:198))
+        pencil.addLine(to: CGPoint(x:38 , y:198))
         
         pencil.move(to: CGPoint(x: 38, y: 123))
-        pencil.addLine(to: CGPoint(x:77 , y:198))
+        pencil.addLine(to: CGPoint(x:38 , y:198))
         
         print(bounds)
         pencil.stroke()
@@ -27,7 +27,5 @@ class Stickman2View: UIView {
         circle.stroke()
         #colorLiteral(red: 0.3098039329, green: 0.2039215714, blue: 0.03921568766, alpha: 1).setFill()
         circle.fill()
-        
-        
     }
  }

@@ -19,7 +19,7 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XwG-kL-MgD" customClass="Stickman1View" customModule="stickman" customModuleProvider="target">
                                 <rect key="frame" x="346" y="413" width="77" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wH9-bK-B5O">
                                 <rect key="frame" x="20" y="892" width="128" height="112"/>
@@ -36,7 +36,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="➡️"/>
                                 <connections>
-                                    <action selector="goLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oEg-7h-atR"/>
                                     <action selector="goRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4kf-LN-o7Y"/>
                                 </connections>
                             </button>
@@ -61,20 +60,20 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAW-TM-WQk" customClass="Stickman2View" customModule="stickman" customModuleProvider="target">
                                 <rect key="frame" x="526" y="413" width="77" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="stickman1View" destination="XwG-kL-MgD" id="3Su-Qh-vj0"/>
                         <outlet property="stickman2View" destination="bAW-TM-WQk" id="2Vi-O0-jHE"/>
-                        <outlet property="stickmen1View" destination="XwG-kL-MgD" id="3Su-Qh-vj0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1302" y="-250"/>
+            <point key="canvasLocation" x="2834" y="-121"/>
         </scene>
     </scenes>
 </document>
