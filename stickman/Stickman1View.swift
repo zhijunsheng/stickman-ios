@@ -19,7 +19,7 @@ class Stickman1View: UIView {
         pencil.move(to: CGPoint(x: 38, y: 123))
         pencil.addLine(to: CGPoint(x:77 , y:198))
         
-        print(bounds)
+//        print(bounds)
         pencil.stroke()
         
         let circle = UIBezierPath(arcCenter: CGPoint(x: 38, y: 38), radius:29, startAngle: 0, endAngle: CGFloat.pi * 2, clockwise: false)

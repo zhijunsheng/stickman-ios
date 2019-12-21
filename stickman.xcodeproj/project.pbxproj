@@ -12,6 +12,7 @@
 		A191BD2023888E6C0097DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD1E23888E6C0097DCEC /* Main.storyboard */; };
 		A191BD2223888E700097DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2123888E700097DCEC /* Assets.xcassets */; };
 		A191BD2523888E700097DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191BD2323888E700097DCEC /* LaunchScreen.storyboard */; };
+		EC37F2A023A6686B0026F247 /* IfElseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37F29F23A6686B0026F247 /* IfElseTests.swift */; };
 		EC80BA37239D327600780E81 /* Stickman2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80BA36239D327600780E81 /* Stickman2View.swift */; };
 		ECFBEC8C239BE1B7001F55A6 /* Stickman1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBEC8B239BE1B7001F55A6 /* Stickman1View.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		A191BD2623888E700097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A191BD2B23888E710097DCEC /* stickmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A191BD3123888E710097DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC37F29F23A6686B0026F247 /* IfElseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTests.swift; sourceTree = "<group>"; };
 		EC80BA36239D327600780E81 /* Stickman2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman2View.swift; sourceTree = "<group>"; };
 		ECFBEC8B239BE1B7001F55A6 /* Stickman1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickman1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A191BD3123888E710097DCEC /* Info.plist */,
+				EC37F29F23A6686B0026F247 /* IfElseTests.swift */,
 			);
 			path = stickmanTests;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 					};
 					A191BD2A23888E710097DCEC = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1120;
 						TestTargetID = A191BD1623888E6B0097DCEC;
 					};
 				};
@@ -211,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC37F2A023A6686B0026F247 /* IfElseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +406,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CAH72PS4M8;
 				INFOPLIST_FILE = stickmanTests/Info.plist;
@@ -411,6 +417,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldthumb.stickmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stickman.app/stickman";
@@ -422,6 +429,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CAH72PS4M8;
 				INFOPLIST_FILE = stickmanTests/Info.plist;
