@@ -21,6 +21,7 @@ class CanvasView: UIView {
             drawStickman2()
         }
         
+        drawPointer()
     }
  
     func drawStickman1() {
@@ -109,5 +110,13 @@ class CanvasView: UIView {
         leftEye.addLine(to: CGPoint(x: 350 + 10, y: 180))
         leftEye.lineWidth = 5
         leftEye.stroke()
+    }
+    
+    func drawPointer() {
+        let pointer = UIBezierPath()
+        pointer.move(to: CGPoint(x: 365, y: 145))
+        pointer.addLine(to: CGPoint(x: 355, y: 90))
+        pointer.lineWidth = 5
+        pointer.stroke()
     }
 }
