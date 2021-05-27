@@ -30,18 +30,17 @@ class ViewController: UIViewController {
         label5.isHidden = true
         
         Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { [self] _ in
-            if self.canvasView.show1 == true {
-                self.canvasView.show1 = false
-            } else {
-                canvasView.show1 = true
-            }
-            canvasView.setNeedsDisplay()
+            toggle()
         }
     }
 
     @IBAction func pressButton(_ sender: Any) {
-        if canvasView.show1 == true {
-            canvasView.show1 = false
+        toggle()
+    }
+    
+    func toggle() {
+        if self.canvasView.show1 == true {
+            self.canvasView.show1 = false
         } else {
             canvasView.show1 = true
         }
