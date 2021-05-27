@@ -14,7 +14,6 @@ class CanvasView: UIView {
     
     
     override func draw(_ rect: CGRect) {
-        
         if show1 == true {
             drawStickman1()
         } else {
@@ -25,36 +24,7 @@ class CanvasView: UIView {
     }
  
     func drawStickman1() {
-        let head = UIBezierPath(arcCenter: CGPoint(x: 365, y: 200), radius: 50, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
-        #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1).setStroke()
-        #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1).setFill()
-        head.fill()
-        head.lineWidth = 5
-        head.stroke()
-        
-        let body = UIBezierPath()
-        body.move(to: CGPoint(x: 365, y: 250))
-        body.addLine(to: CGPoint(x: 365, y: 400))
-        body.lineWidth = 5
-        body.stroke()
-        
-        let leftLeg = UIBezierPath()
-        leftLeg.move(to: CGPoint(x: 365, y: 400))
-        leftLeg.addLine(to: CGPoint(x: 250, y: 500))
-        leftLeg.lineWidth = 5
-        leftLeg.stroke()
-        
-        let rightLeg = UIBezierPath()
-        rightLeg.move(to: CGPoint(x: 365, y: 400))
-        rightLeg.addLine(to: CGPoint(x: 480, y: 500))
-        rightLeg.lineWidth = 5
-        rightLeg.stroke()
-        
-        let leftArm = UIBezierPath()
-        leftArm.move(to: CGPoint(x: 365, y: 315))
-        leftArm.addLine(to: CGPoint(x: 365 - 100, y: 275))
-        leftArm.lineWidth = 5
-        leftArm.stroke()
+        drawHeadLeftLegRightLegBodyLeftArm()
         
         let rightArm = UIBezierPath()
         rightArm.move(to: CGPoint(x: 365, y: 315))
@@ -66,48 +36,11 @@ class CanvasView: UIView {
         leftEye.lineWidth = 5
         leftEye.stroke()
         
-        let rightEye = UIBezierPath(arcCenter: CGPoint(x: 380, y: 180), radius: 10, startAngle: 0 * CGFloat.pi, endAngle: 2 * CGFloat.pi, clockwise: true)
-        rightEye.lineWidth = 5
-        rightEye.stroke()
-        
-        let smile = UIBezierPath(arcCenter: CGPoint(x: 363.5, y: 210), radius: 20, startAngle: 0 * CGFloat.pi, endAngle: 1 * CGFloat.pi, clockwise: true)
-        smile.lineWidth = 5
-        smile.stroke()
-        
-        
+        drawRightEyeAndSmile()
     }
     
     func drawStickman2() {
-        let head = UIBezierPath(arcCenter: CGPoint(x: 365, y: 200), radius: 50, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
-        #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1).setStroke()
-        #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1).setFill()
-        head.fill()
-        head.lineWidth = 5
-        head.stroke()
-        
-        let body = UIBezierPath()
-        body.move(to: CGPoint(x: 365, y: 250))
-        body.addLine(to: CGPoint(x: 365, y: 400))
-        body.lineWidth = 5
-        body.stroke()
-        
-        let leftLeg = UIBezierPath()
-        leftLeg.move(to: CGPoint(x: 365, y: 400))
-        leftLeg.addLine(to: CGPoint(x: 250, y: 500))
-        leftLeg.lineWidth = 5
-        leftLeg.stroke()
-        
-        let rightLeg = UIBezierPath()
-        rightLeg.move(to: CGPoint(x: 365, y: 400))
-        rightLeg.addLine(to: CGPoint(x: 480, y: 500))
-        rightLeg.lineWidth = 5
-        rightLeg.stroke()
-        
-        let leftArm = UIBezierPath()
-        leftArm.move(to: CGPoint(x: 365, y: 315))
-        leftArm.addLine(to: CGPoint(x: 365 - 100, y: 275))
-        leftArm.lineWidth = 5
-        leftArm.stroke()
+        drawHeadLeftLegRightLegBodyLeftArm()
         
         let rightArm = UIBezierPath()
         rightArm.move(to: CGPoint(x: 365, y: 315))
@@ -121,6 +54,10 @@ class CanvasView: UIView {
         leftEye.lineWidth = 5
         leftEye.stroke()
         
+        drawRightEyeAndSmile()
+    }
+    
+    func drawRightEyeAndSmile() {
         let rightEye = UIBezierPath(arcCenter: CGPoint(x: 380, y: 180), radius: 10, startAngle: 0 * CGFloat.pi, endAngle: 2 * CGFloat.pi, clockwise: true)
         rightEye.lineWidth = 5
         rightEye.stroke()
@@ -128,6 +65,7 @@ class CanvasView: UIView {
         let smile = UIBezierPath(arcCenter: CGPoint(x: 363.5, y: 210), radius: 20, startAngle: 0 * CGFloat.pi, endAngle: 1 * CGFloat.pi, clockwise: true)
         smile.lineWidth = 5
         smile.stroke()
+        
     }
     
     func drawPointer() {
@@ -136,5 +74,38 @@ class CanvasView: UIView {
         pointer.addLine(to: CGPoint(x: 355, y: 90))
         pointer.lineWidth = 5
         pointer.stroke()
+    }
+    
+    func drawHeadLeftLegRightLegBodyLeftArm() {
+        let head = UIBezierPath(arcCenter: CGPoint(x: 365, y: 200), radius: 50, startAngle: 0, endAngle: 2 * CGFloat.pi, clockwise: true)
+        #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1).setStroke()
+        #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1).setFill()
+        head.fill()
+        head.lineWidth = 5
+        head.stroke()
+        
+        let body = UIBezierPath()
+        body.move(to: CGPoint(x: 365, y: 250))
+        body.addLine(to: CGPoint(x: 365, y: 400))
+        body.lineWidth = 5
+        body.stroke()
+        
+        let leftLeg = UIBezierPath()
+        leftLeg.move(to: CGPoint(x: 365, y: 400))
+        leftLeg.addLine(to: CGPoint(x: 250, y: 500))
+        leftLeg.lineWidth = 5
+        leftLeg.stroke()
+        
+        let rightLeg = UIBezierPath()
+        rightLeg.move(to: CGPoint(x: 365, y: 400))
+        rightLeg.addLine(to: CGPoint(x: 480, y: 500))
+        rightLeg.lineWidth = 5
+        rightLeg.stroke()
+        
+        let leftArm = UIBezierPath()
+        leftArm.move(to: CGPoint(x: 365, y: 315))
+        leftArm.addLine(to: CGPoint(x: 365 - 100, y: 275))
+        leftArm.lineWidth = 5
+        leftArm.stroke()
     }
 }
