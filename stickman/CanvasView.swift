@@ -15,7 +15,7 @@ class CanvasView: UIView {
     
     override func draw(_ rect: CGRect) {
         
-        if show1 {
+        if show1 == true {
             drawStickman1()
         } else {
             drawStickman2()

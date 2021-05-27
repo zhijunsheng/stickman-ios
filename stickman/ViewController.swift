@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         let bj = UIBezierPath(arcCenter: CGPoint(x: 365, y: 500), radius: 350, startAngle: 0 * CGFloat.pi, endAngle: 2 * CGFloat.pi, clockwise: true)
         bj.lineWidth = 0.5
@@ -30,9 +29,15 @@ class ViewController: UIViewController {
         label4.isHidden = true
         label5.isHidden = true
         
-        // abcdd
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { [self] _ in
+            if self.canvasView.show1 == true {
+                self.canvasView.show1 = false
+            } else {
+                canvasView.show1 = true
+            }
+            canvasView.setNeedsDisplay()
+        }
     }
-
 
     @IBAction func pressButton(_ sender: Any) {
         if canvasView.show1 == true {
