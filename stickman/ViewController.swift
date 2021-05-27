@@ -30,12 +30,7 @@ class ViewController: UIViewController {
         label4.isHidden = true
         label5.isHidden = true
         
-        
-        var x = 7
-        print(x)
-        
-        x = x + 3
-        print(x)
+        // abcdd
     }
 
 
@@ -57,7 +52,7 @@ class ViewController: UIViewController {
             label5.isHidden = true
         }
         
-        if step == 1 {
+        if step == 7 {
             label1.isHidden = false
             label2.isHidden = false
             label3.isHidden = true
@@ -65,7 +60,7 @@ class ViewController: UIViewController {
             label5.isHidden = true
         }
         
-        if step == 2 {
+        if step == 14 {
             label1.isHidden = false
             label2.isHidden = false
             label3.isHidden = false
@@ -73,7 +68,7 @@ class ViewController: UIViewController {
             label5.isHidden = true
         }
         
-        if step == 3 {
+        if step == 21 {
             label1.isHidden = false
             label2.isHidden = false
             label3.isHidden = false
@@ -81,14 +76,14 @@ class ViewController: UIViewController {
             label5.isHidden = true
         }
         
-        if step == 4 {
+        if step == 28 {
             label1.isHidden = false
             label2.isHidden = false
             label3.isHidden = false
             label4.isHidden = false
             label5.isHidden = false
         }
-        step = step + 1
+        step = step + 7
     }
 
 }

@@ -65,6 +65,16 @@ class CanvasView: UIView {
         let leftEye = UIBezierPath(arcCenter: CGPoint(x: 350, y: 180), radius: 10, startAngle: 0 * CGFloat.pi, endAngle: 2 * CGFloat.pi, clockwise: true)
         leftEye.lineWidth = 5
         leftEye.stroke()
+        
+        let rightEye = UIBezierPath(arcCenter: CGPoint(x: 380, y: 180), radius: 10, startAngle: 0 * CGFloat.pi, endAngle: 2 * CGFloat.pi, clockwise: true)
+        rightEye.lineWidth = 5
+        rightEye.stroke()
+        
+        let smile = UIBezierPath(arcCenter: CGPoint(x: 363.5, y: 210), radius: 20, startAngle: 0 * CGFloat.pi, endAngle: 1 * CGFloat.pi, clockwise: true)
+        smile.lineWidth = 5
+        smile.stroke()
+        
+        
     }
     
     func drawStickman2() {
@@ -110,6 +120,14 @@ class CanvasView: UIView {
         leftEye.addLine(to: CGPoint(x: 350 + 10, y: 180))
         leftEye.lineWidth = 5
         leftEye.stroke()
+        
+        let rightEye = UIBezierPath(arcCenter: CGPoint(x: 380, y: 180), radius: 10, startAngle: 0 * CGFloat.pi, endAngle: 2 * CGFloat.pi, clockwise: true)
+        rightEye.lineWidth = 5
+        rightEye.stroke()
+        
+        let smile = UIBezierPath(arcCenter: CGPoint(x: 363.5, y: 210), radius: 20, startAngle: 0 * CGFloat.pi, endAngle: 1 * CGFloat.pi, clockwise: true)
+        smile.lineWidth = 5
+        smile.stroke()
     }
     
     func drawPointer() {
